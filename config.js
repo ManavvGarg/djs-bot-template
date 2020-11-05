@@ -1,0 +1,3 @@
+exports.TOKEN = ""
+
+exports.PREFIX = "$"
