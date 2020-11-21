@@ -21,8 +21,8 @@ bot.commands = new Collection();
 bot.aliases = new Collection();
 
 //Importing and setting collections for Command names and aliases
-["commands", "aliases"].forEach(x => bot[x] = new Collection())
-["command", "event"].forEach(x => require(`./handler/${x}`)(bot))
+["commands", "aliases"].forEach(x => bot[x] = new Collection());
+["command", "event"].forEach(x => require(`./handler/${x}`)(bot));
 
 bot.on("message", async message => {
     
