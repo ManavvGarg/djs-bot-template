@@ -14,7 +14,8 @@
 
 const { Client, Collection, MessageEmbed } = require("discord.js")
 const bot = new Client();
-const { PREFIX, TOKEN } = require("./config") 
+const { PREFIX, TOKEN } = require("./config")
+const db = require("quick.db")
 
 //Defining Collections
 bot.commands = new Collection();
