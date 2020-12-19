@@ -9,7 +9,7 @@
   "author": "ManavvGarg",
   "license": "Apache2.0",
   "dependencies": {
-    "discord.js": "^12.4.1",
+    "discord.js": "^12.5.1",
     "quick.db": "^7.1.3"
   }
 }
